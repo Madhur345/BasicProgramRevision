@@ -9,6 +9,7 @@ public class P21 {
 			String username = s.nextLine();
 			int l = username.length();
 			if(l>=6 && l<=12){
+				System.out.println("username is valid");
 				flag=true;
 				break;
 			}
