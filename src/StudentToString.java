@@ -11,7 +11,6 @@ public class StudentToString {
 	}
 	public String toString(){
 		return rollNum+" "+name+" "+" "+city;
-
 	}
 	public static void main(String[] args) {
 		StudentToString s1 = new StudentToString(101, "Vishal", "Bangalore");

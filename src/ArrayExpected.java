@@ -20,7 +20,7 @@ public class ArrayExpected {
 			else{
 				j++;
 				if(j==str.length){
-					System.out.println("Expected Data is Missing"+j);
+					System.out.println("Expected Data is Missing");
 				}
 			}
 		}

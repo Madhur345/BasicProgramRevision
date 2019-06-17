@@ -27,9 +27,9 @@ public class String$StringBuffer {
 		System.out.println("Time taken by Concating with String: "+ (System.currentTimeMillis()-startTime) + " ms");
 		startTime = System.currentTimeMillis();
 		concatWithStringBuffer();
-		System.out.println("Time taken by Concating with String: "+ (System.currentTimeMillis()-startTime) + " ms");
+		System.out.println("Time taken by Concating with StringBuffer: "+ (System.currentTimeMillis()-startTime) + " ms");
 		startTime = System.currentTimeMillis();
 		concatWithStringBuilder();
-		System.out.println("Time taken by Concating with String: "+ (System.currentTimeMillis()-startTime) + " ms");
+		System.out.println("Time taken by Concating with StringBuilder: "+ (System.currentTimeMillis()-startTime) + " ms");
 	}
 }

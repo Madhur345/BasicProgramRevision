@@ -16,6 +16,5 @@ public class P74ConstCustomer {
 		System.out.println(cus1.desc);
 		P74ConstCustomer cus2 = new P74ConstCustomer("SBI");
 		System.out.println(cus2.name);
-		System.out.println(cus2.desc);
 	}
 }

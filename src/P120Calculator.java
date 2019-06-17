@@ -1,8 +1,8 @@
 
 public class P120Calculator {
-	/*void add(int i){
-		System.out.println("int");
-	}*/
+//	void add(int i){
+//		System.out.println("int");
+//	}
 	void add(Integer i){
 		System.out.println("Wrapper integrer");
 	}

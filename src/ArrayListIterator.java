@@ -8,8 +8,8 @@ public class ArrayListIterator {
 		list.add("Sam");
 		list.add("Tam");
 		Iterator<String> itr = list.iterator();
-		while (itr.hasNext()) {
-		System.out.println(itr.next());
+		while(itr.hasNext()){
+			System.out.println(itr.next());
 		}
 	}
 }

@@ -1,7 +1,7 @@
 
 public class P119Run {
 	public static void main(String[] args) {
-		All all = new All();
+		P118All all = new P118All();
 		all.dispImg();
 		all.dispPrice();
 		all.watchType();

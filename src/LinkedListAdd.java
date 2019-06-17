@@ -7,7 +7,7 @@ public class LinkedListAdd {
 		list1.add("samu");
 		list1.add("tamu");
 		System.out.println(list1);
-		list1.add(1, "rahul");
+		list1.add(0, "rahul");
 		System.out.println(list1);
 		LinkedList<String> list2 = new LinkedList<>();
 		list2.add("kaju");
@@ -21,7 +21,7 @@ public class LinkedListAdd {
 		list3.add("tumi");
 		list3.add("kuti");
 		System.out.println(list3);
-		list1.addAll(1,list3);
+		list1.addAll(2,list3);
 		System.out.println(list1);
 		list1.addFirst("Rakesh");
 		list1.addLast("Suresh");

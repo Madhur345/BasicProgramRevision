@@ -13,5 +13,11 @@ public class StringBufferCapacity {
 		System.out.println(sf.capacity());
 		sf.ensureCapacity(50);
 		System.out.println(sf.capacity());
+		sf.append("java testing with selenium");
+		System.out.println(sf.capacity());
+		sf.ensureCapacity(90);
+		System.out.println(sf.capacity());
+		sf.ensureCapacity(91);
+		System.out.println(sf.capacity());
 	}
 }

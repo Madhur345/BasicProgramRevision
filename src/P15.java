@@ -3,35 +3,32 @@ import java.util.Scanner;
 public class P15 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		System.out.println("Enter the day");
+		System.out.println("Enter the Number");
 		int dayNum = s.nextInt();
 		switch (dayNum) {
 		case 1:
-			System.out.println("Day Is Monday");
+			System.out.println("Day is Monday");
 			break;
 		case 2:
-			System.out.println("Day Is Tuesday");
+			System.out.println("Day is Tuesday");
 			break;
 		case 3:
-			System.out.println("Day Is Wednesday");
+			System.out.println("Day is Wednesday");
 			break;
 		case 4:
-			System.out.println("Day Is Thrusday");
+			System.out.println("Day is Thrusday");
 			break;
 		case 5:
-			System.out.println("Day Is Friday");
+			System.out.println("Day is Friday");
 			break;
 		case 6:
-			System.out.println("Day Is Saturday");
+			System.out.println("Day is Saturday");
 			break;
 		case 7:
-			System.out.println("Day Is Sunday");
+			System.out.println("Day is Sunmday");
 			break;
-
-		default:
-			System.err.println("Day is Invalid");
-			break;
+		default :
+			System.out.println("Day is Invalid");
 		}
 	}
-
 }

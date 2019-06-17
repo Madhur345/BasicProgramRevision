@@ -13,7 +13,7 @@ public class P84Constructor {
 	}
 	P84Constructor(boolean b,double d){
 		this(10);
-		//this("Guddu");//Calling Reoccuring of constructor is not possible and also can't call more than one CONSTRUCTOR
+		//this("Guddu");//Calling Recurring of constructor is not possible and also can't call more than one CONSTRUCTOR
 
 		System.out.println("Double Param Constructor");
 	}

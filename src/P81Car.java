@@ -1,8 +1,8 @@
 
 public class P81Car {
 	String model;
-	public P81Car(String m) {
-		this.model=m;
+	public P81Car(String model) {
+		this.model=model;
 	}
 	public static void main(String[] args) {
 		P81Car CAR = new P81Car("Swift");
