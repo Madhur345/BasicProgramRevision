@@ -16,6 +16,9 @@ public class Throws {
 			System.out.println("IOException");
 		}catch(ClassNotFoundException c){
 			System.out.println("ClassNotFoundException");
+			//		}catch(Throwable t){
+			//			System.out.println("Exception Handled");
+			//		}
 		}
 	}
 }

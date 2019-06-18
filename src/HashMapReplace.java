@@ -15,7 +15,7 @@ public class HashMapReplace {
 		System.out.println(map);
 		map.replace(20, "Tuhul");
 		System.out.println(map);
-		map.replace(10, "suhul");
+		map.replace(10,"Rahul","suhul");
 		System.out.println(map);
 	}
 }
