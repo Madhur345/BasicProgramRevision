@@ -1,9 +1,9 @@
 
 public class HashCodeTest {
 	public static void main(String[] args) {
-		String t = "Square";
+		String t ="Square";
 		System.out.println(t.hashCode());
-		t=t+"Plums";
+		t =t.concat("Plums");
 		System.out.println(t.hashCode());
 
 		StringBuffer sb = new StringBuffer("Square");

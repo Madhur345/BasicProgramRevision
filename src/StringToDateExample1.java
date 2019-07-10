@@ -13,14 +13,14 @@ public class StringToDateExample1 {
 		Date date1 = new SimpleDateFormat("dd/MM/yyyy").parse(sdate1);
 		Date date2 = new SimpleDateFormat("dd-MM-yyyy").parse(sdate2);
 		Date date3 = new SimpleDateFormat("dd MM, yyyy").parse(sdate3);
-		Date date4 = new SimpleDateFormat("E, MMM dd yyyy").parse(sdate4);
+		Date date4 = new SimpleDateFormat("E, MMM dd yyyy").parse(sdate4 );
 		Date date5 = new SimpleDateFormat("E, MMM dd yyyy HH:mm:ss").parse(sdate5);
 		Date date6 = new SimpleDateFormat("dd-MMM-yyyy HH:mm:ss").parse(sdate6);
-		System.out.println(sdate1 + " " + date1);
-		System.out.println(sdate2 + " " + date2);
-		System.out.println(sdate3 + " " + date3);
-		System.out.println(sdate4 + " " + date4);
-		System.out.println(sdate5 + " " + date5);
-		System.out.println(sdate6 + " " + date6);
+		System.out.println(date1);
+		System.out.println(date2);
+		System.out.println(date3);
+		System.out.println(date4);
+		System.out.println(date5);
+		System.out.println(date6);
 	}
 }
